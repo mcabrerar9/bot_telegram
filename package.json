@@ -1,0 +1,24 @@
+{
+  "name": "bottelegram",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.7",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.11.4",
+    "openai": "^4.71.1",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
